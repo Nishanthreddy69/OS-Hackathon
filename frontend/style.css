@@ -1,0 +1,54 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background: #f4f6f9;
+}
+
+/* Buttons */
+.controls {
+    margin: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    background: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+/* Output */
+.output-box {
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Chart card */
+.chart-container {
+    width: 500px;
+    height: 300px;
+    margin: 30px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+/* Canvas fix */
+#chart, #pieChart {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+h1 {
+    margin-top: 20px;
+    color: #333;
+}

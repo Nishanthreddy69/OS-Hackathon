@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CPU Scheduler Simulator</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+
+    <h1>CPU Load Balancer Simulator</h1>
+
+    <div class="controls">
+        <button onclick="runStatic()">Run Static</button>
+        <button onclick="runDynamic()">Run Dynamic</button>
+    </div>
+
+    <div id="output" class="output-box"></div>
+
+    <!-- Bar Chart -->
+    <div class="chart-container">
+        <canvas id="chart"></canvas>
+    </div>
+
+    <!-- Pie Chart -->
+    <div class="chart-container">
+        <canvas id="pieChart"></canvas>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
