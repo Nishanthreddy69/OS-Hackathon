@@ -17,4 +17,5 @@ Open frontend/index.html in browser
 Output
 Displays CPU load distribution
 Shows Bar Chart and Pie Chart
-Author - Nishanth Reddy
+Author 
+Nishanth Reddy
